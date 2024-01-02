@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+
+}
+
+.logo img {
+    height: 50px;
+    margin-left: 4rem;
+}
+
+li {
+    margin: 0rem 3rem;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ol {
+    display: flex;
+}
+
+.Inicio img {
+    width: 100%;
+    
+}
+
+.ImagenesRedes {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ImagenesRedes p {
+    color: white;
+    margin-right: 2rem;
+}
+
+.ImagenesRedes img {
+    width: 30px;
+    padding: 1rem 0;
+    margin: 0 1rem;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+section p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+section img {
+    width: 300px;
+    margin: 0 50px;
+}
+
+main h1 {
+    margin-bottom: 100px;
+}
+
+.formulario {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario input {
+    width: 40%;
+    height: 25px;
+    margin: 10px 0;
+}
+
+.formulario textarea {
+    width: 40%;
+    height: 25px;
+    margin: 10px 0;
+    min-width: 40%;
+    max-width: 40%;
+    min-height: 150px;
+    max-height: 300px;
+}
+
+.formulario .boton {
+    width: 100px;
+    color: black;
+}
+
+.formulario .boton:hover {
+    transition: all 1s ease;
+    background-color: black;
+    color: white;
+}
